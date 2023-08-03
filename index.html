@@ -9,24 +9,27 @@
     <title>cubed.garden</title>
 </head>
 <body>
-<div class="flexBox" style="border: hidden; width: 100%; background-color: rgb(14,14,14); height: 5rem;">
-    <button style="background-color: transparent; border: hidden; color: white" onclick="switchTab('garden')"><b>garden</b></button>
-    <t style="color: white">•</t>
-    <button style="background-color: transparent; border: hidden; color: white" onclick="switchTab('faq')"><b>mod help</b></button>
-    <t style="color: white">•</t>
-    <button style="background-color: transparent; border: hidden; color: white" onclick="switchTab('contact')"><b>gardeners</b></button>
-</div>
-<div class="flexBox page" id="garden">
-    <h2 class="centeredTexts">cubed.garden</h2>
-    <p class="centeredTexts">cubed.garden is a Minecraft SMP with proximity voice chat and regular events.</p>
-    <p class="centeredTexts" style="margin-top: 3rem">cubed.garden runs on minecraft 1.20.1 and requires the simple voice chat mod.</p>
-</div>
-<div class="flexBox page" id="faq" style="display: none">
-    <p class="centeredTexts">this is a step-by-step guide on how to install simple voice chat using fabric as if you have never installed minecraft mods before.<br>steps 0 and 1 can be safely skipped if you already have fabric installed.</p>
-    <p class="centeredTexts">step 0: download <a href="https://fabricmc.net/use/installer/" target="_blank">fabric</a><br><br>step 1: download the <a href="https://modrinth.com/mod/fabric-api" target="_blank">fabric api</a><br>step 2: download <a href="https://modrinth.com/plugin/simple-voice-chat/version/fabric-1.20.1-2.4.15" target="_blank">simple voice chat</a><br><br>step 3: navigate to C:/Users/[username]/AppData/Roaming/.minecraft<br><span style="font-size: 0.8rem">hint: in order to reach /AppData/Roaming type "%appdata%" in the search menu</span><br><br>step 4: create a folder called 'mods' inside /.minecraft. <br><br>step 5: paste the fabric api and simple voice chat files into /.minecraft/mods<br><br><br><br><br>congratulations, you have installed the simple voice chat mod (and the fabric mod loader)! press capslock to talk and v for more settings.<br><br>refer to the <a href="https://modrinth.com/plugin/simple-voice-chat" target="_blank">mod page</a> for further information on the mod if you're interested.</p>
-</div>
-<div class="flexBox page" id="contact" style="display: none">
-    <t class="centeredTexts">cubed.garden is hosted by <a href="https://yhvr.me/" target="_blank">yhvr</a>, <a href="https://demonin.com/" target="_blank">demonin</a>, and <a href="https://flamemasternxf.github.io/" target="_blank">flamemasternxf</a></t>
+<div class="flexBox" style="flex-direction: column">
+    <div class="flexBox" style="border: hidden; width: 100%; background-color: rgb(14,14,14); height: 5rem;">
+        <button style="background-color: transparent; border: hidden; color: white" onclick="switchTab('garden')"><b>garden</b></button>
+        <t style="color: white">•</t>
+        <button style="background-color: transparent; border: hidden; color: white" onclick="switchTab('faq')"><b>mod help</b></button>
+        <t style="color: white">•</t>
+        <button style="background-color: transparent; border: hidden; color: white" onclick="switchTab('contact')"><b>gardeners</b></button>
+    </div>
+    <div class="flexBox page" id="garden">
+        <h2 class="centeredTexts">cubed.garden</h2>
+        <p class="centeredTexts">cubed.garden is a Minecraft SMP with proximity voice chat and regular events.</p>
+        <p class="centeredTexts" style="margin-top: 3rem">cubed.garden runs on minecraft 1.20.1 and requires the simple voice chat mod.</p>
+    </div>
+    <div class="flexBox page" id="faq" style="display: none">
+        <p class="centeredTexts">this is a step-by-step guide on how to install simple voice chat using fabric as if you have never installed minecraft mods before.<br>steps 0 and 1 can be safely skipped if you already have fabric installed.</p>
+        <p class="centeredTexts">step 0: download <a href="https://fabricmc.net/use/installer/" target="_blank">fabric</a><br><br>step 1: download the <a href="https://modrinth.com/mod/fabric-api" target="_blank">fabric api</a><br>step 2: download <a href="https://modrinth.com/plugin/simple-voice-chat/version/fabric-1.20.1-2.4.15" target="_blank">simple voice chat</a><br><br>step 3: navigate to C:/Users/[username]/AppData/Roaming/.minecraft<br><span style="font-size: 0.8rem">hint: in order to reach /AppData/Roaming type "%appdata%" in the search menu</span><br><br>step 4: create a folder called 'mods' inside /.minecraft. <br><br>step 5: paste the fabric api and simple voice chat files into /.minecraft/mods<br><br><br><br><br>congratulations, you have installed the simple voice chat mod (and the fabric mod loader)! press capslock to talk and v for more settings.<br><br>refer to the <a href="https://modrinth.com/plugin/simple-voice-chat" target="_blank">mod page</a> for further information on the mod if you're interested.</p>
+    </div>
+    <div class="flexBox page" id="contact" style="display: none">
+        <t class="centeredTexts">cubed.garden is hosted by <a href="https://yhvr.me/" target="_blank">yhvr</a>, <a href="https://demonin.com/" target="_blank">demonin</a>, and <a href="https://flamemasternxf.github.io/" target="_blank">flamemasternxf</a></t>
+    </div>
+    <p class="centeredTexts" style="margin-top: 20rem; font-size: 0.7rem">made with <3 by flamemasternxf</p>
 </div>
 </body>
 </html>
