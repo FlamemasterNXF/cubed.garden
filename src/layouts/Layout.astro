@@ -1,0 +1,36 @@
+---
+export interface Props {
+	title: string;
+}
+
+let { title } = Astro.props;
+if (Math.random() >= 0.99) title += " :3";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Inter/Inter%20Web/inter.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    <link rel="icon" href="res/favicon.png" type="image" sizes="32x32"/>
+    <title>cubed.garden</title>
+</head>
+<body>
+<div class="flexBox" style="flex-direction: column">
+    <div class="header">
+        <a href="/"><b>garden</b></a>
+        <t>•</t>
+        <a href="/rules"><b>rules</b></a>
+        <t>•</t>
+        <a href="/help/mod"><b>mod help</b></a>
+        <t>•</t>
+        <a href="/credit"><b>gardeners</b></a>
+    </div>
+	<div class="flexBox page" id="garden">
+		<slot />
+    </div>
+    <p class="credit">made with &lt;3 by flamemasternxf</p>
+</div>
+</body>
+</html>
