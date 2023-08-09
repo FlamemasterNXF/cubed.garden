@@ -10,7 +10,7 @@ div,
 p,
 h2,
 h3 {
-	font-family: Inter;
+	font-family: Inter, sans-serif;
 }	
 #wrapper {
 	position: relative;
